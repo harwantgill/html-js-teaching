@@ -1,0 +1,37 @@
+/* 
+Select by HTML tag
+*/
+
+/* targets all the <h1> in the HTML document */
+h1 {
+    color: red;
+}
+
+div {
+    background-color: blue;
+}
+
+#title {
+    background-color: orange;
+}
+
+/*
+Select by class
+*/
+/* select ALL elements with the class of `highlight` */
+.highlight {
+    background-color: yellow;
+}
+
+a.highlight {
+    background-color: red;
+}
+
+/*
+Select by ID
+*/
+#content {
+    font-size: 24px;
+    font-family: Verdana;
+}
+
